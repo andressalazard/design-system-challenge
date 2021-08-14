@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.heading {
+  text-align: start;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  column-gap: 1.5rem;
+  justify-items: center;
+}
+
+.not_found_image {
+  width: 100%;
+}
+
+.not_found_message {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+
+  justify-content: space-between;
+}
+
+.not_found_image img {
+  height: 50vh;
+}
+
+.message_heading {
+  font-size: 28px;
+}
+
+.message_heading h1 {
+  margin: 0;
+}
+
+.message_content p {
+  margin-right: 10rem;
+  font-size: 20px;
+}

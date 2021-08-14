@@ -1,0 +1,140 @@
+:root {
+  --gray_tone_01: #333333;
+  --gray_tone_02: #828282;
+  --gray_tone_03: #f2f2f2;
+  --alert_tone: #d32f2f;
+  --primary_tone: #2962ff;
+}
+
+.container {
+  text-align: start;
+}
+
+.input_container {
+  margin-top: 12px;
+  text-align: start;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.label {
+  color: var(--gray_tone_02);
+}
+
+.standard_input {
+  border: 2px solid var(--gray_tone_02);
+  padding: 1rem;
+  margin-top: 0.5rem;
+  outline: none;
+}
+
+.standard_input:focus {
+  border: 2px solid var(--primary_tone);
+}
+
+.standard_input:focus + .label {
+  color: var(--primary_tone);
+}
+
+.standard_input:hover {
+  border: 2px solid var(--gray_tone_01);
+}
+
+.standard_input:hover + .label {
+  color: var(--gray_tone_01);
+}
+
+.sm_size {
+  width: 30%;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.md_size {
+  width: 50%;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.lg_size {
+  width: 80%;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.xl_size {
+  width: 300%;
+  font-size: 30px;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.error_type {
+  border: 2px solid var(--alert_tone);
+}
+
+.error_type + .label {
+  color: var(--alert_tone);
+}
+
+.error_type:focus {
+  border: 2px solid var(--alert_tone);
+}
+
+.error_type:focus + .label {
+  color: var(--alert_tone);
+}
+
+.disabled_type {
+  background-color: var(--gray_tone_03);
+  color: var(--gray_tone_02);
+  border: none;
+  pointer-events: none;
+}
+
+.helper_text {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 4px;
+  color: var(--gray_tone_02);
+  font-weight: 500;
+}
+
+.helper_text_error {
+  color: var(--alert_tone);
+}
+
+.input_field {
+  position: relative;
+  color: var(--gray_tone_01);
+  display: flex;
+  align-items: center;
+  gap: -10px;
+}
+
+.input_field > ::placeholder {
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.input_field > span {
+  position: absolute;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+.input_field > .icon_end {
+  right: 0;
+  margin-right: 40px;
+}
+
+.input_field > .icon_start {
+  margin-left: 10px;
+}
+
+.description {
+  font-size: 14px;
+}

@@ -1,0 +1,62 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85vh;
+
+  padding: 1rem;
+}
+
+.heading {
+  margin: 1rem 0;
+}
+
+.heading h1 {
+  margin: 0;
+}
+
+.content {
+  margin: 1rem 0;
+}
+
+.content h1 {
+  text-align: start;
+  margin-left: 1rem;
+}
+
+.project_description {
+  background-color: rgba(31, 14, 126, 0.4);
+  border: 2px solid rgba(31, 14, 126, 0.6);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px 5px 10px rgba(0, 0, 0, 0.3);
+
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.project_description p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.project_description ul {
+  text-align: start;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: rgba(31, 14, 126, 0.6);
+}
+
+.footer {
+  font-size: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(27, 124, 148);
+  font-weight: 600;
+}

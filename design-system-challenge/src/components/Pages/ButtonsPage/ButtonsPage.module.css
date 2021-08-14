@@ -1,0 +1,21 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  display: grid;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page_heading {
+  grid-row: 1 / span 2;
+}
+
+.page_content {
+  height: 100%;
+  grid-row: 3 / 12;
+  padding-bottom: 1rem;
+}
+
+.display_row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

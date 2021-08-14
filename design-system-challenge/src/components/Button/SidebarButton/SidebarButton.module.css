@@ -1,0 +1,37 @@
+.content {
+  width: 90%;
+  height: 60%;
+  margin: 1rem;
+
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(116, 43, 116);
+  color: rgb(155, 132, 148);
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  padding: 1rem;
+
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content:hover {
+  transform: translateY(-10%);
+  animation: transform 2s ease-in-out;
+}
+
+.content:focus {
+  background-color: rgb(99, 45, 83);
+  color: rgb(236, 232, 235);
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 36px;
+  margin-right: 1rem;
+}
